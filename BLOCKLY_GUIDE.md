@@ -240,7 +240,7 @@ const generateCode = () => {
 
 Si vous obtenez des erreurs liées à `window` ou `document` non définis :
 
-1. Assurez-ez que le composant utilise `"use client"`
+1. Assurez-vous que le composant utilise `"use client"`
 2. Vérifiez que Blockly est importé dynamiquement dans `useEffect`
 
 ### Le workspace ne se charge pas
